@@ -1,0 +1,83 @@
+# -- feeds ---------------------------------------------------------------------
+
+#auto-reload yes
+#suppress-first-reload yes
+#refresh-on-startup yes
+#reload-time 120
+#reload-threads 4
+download-retries 4
+download-timeout 10
+#prepopulate-query-feeds yes
+show-title-bar no
+show-keymap-hint no
+max-items 70
+#parallel downloading
+reload-threads 20 #20 at a time
+# -- display -------------------------------------------------------------------
+
+#show-read-feeds no
+#feed-sort-order unreadarticlecount-asc
+
+text-width 80
+feedlist-format     "===%5i %n %11u %t"
+articlelist-format  "---%5i %f %D   %?T?|%-17T|  ?%t"
+#itemview-title-format "%10T %10F"
+
+#---display image---------------------------------------------------------------
+
+pager "vim"
+#html-renderer "/usr/bin/w3m"
+
+# -- navigation ----------------------------------------------------------------
+
+goto-next-feed no
+
+browser "qutebrowser %u &"
+macro o set browser "mpv %u" ; open-in-browser ; set browser "qutebrowser %u"
+macro , set browser "qutebrowser %u"; open-in-browser
+
+bind-key j down
+bind-key k up
+bind-key J next-feed articlelist
+bind-key K prev-feed articlelist
+bind-key l open
+bind-key o open-in-browser-noninteractively
+bind-key h quit
+bind-key a toggle-article-read
+bind-key n next-unread
+bind-key N prev-unread
+bind-key G end
+bind-key g home
+
+# -- bookmarks -----------------------------------------------------------------
+
+#bookmark-cmd ~/.newsbeuter/bookmark.sh
+#bookmark-interactive no
+#bookmark-autopilot yes
+
+# colors
+color background          black      default
+color listnormal          color8     default
+color listnormal_unread   color73      default bold
+color listfocus           black      color43 bold
+color listfocus_unread    white      color43 bold
+color info                cyan       color235 bold standout
+color article             color208      default
+
+# highlights
+highlight article "^(Feed|Link):.*$" 	yellow default bold
+highlight article "^(Title):.*$" 		green default bold
+highlight article "^(Date|Author):.*$"  yellow default bold
+highlight article "^(Author):.*$" 		color202 default bold
+highlight article "https?://[^ ]+" 		white default
+highlight article "\\[[0-9]+\\]" 		yellow default bold
+highlight article "\\[image\\ [0-9]+\\]" yellow default bold
+highlight feedlist "^─.*$" yellow color235 bold
+
+# -- misc ----------------------------------------------------------------------
+
+unbind-key C feedlist
+confirm-exit no
+confirm-mark-all-feeds-read no
+confirm-mark-feed-read no
+cleanup-on-quit no
