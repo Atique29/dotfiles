@@ -8,13 +8,13 @@ highlight ColorColumn ctermbg=magenta
 call matchadd('ColorColumn','\%81v',100)
 
 filetype plugin on
+filetype indent on
 
 "vimwiki path
 let g:vimwiki_list = [{'path': '~/.vim/wiki/'}]
 
 set background=dark
-colorscheme darkblue
-
+colorscheme seti
 "syntax on
 syntax enable
 highlight Folded ctermbg=black ctermfg=green
@@ -39,6 +39,7 @@ highlight Folded ctermbg=black ctermfg=green
 autocmd BufwritePre * %s/\s\+$//e
 
 set cursorline
+hi CursorLineNr term=bold cterm=underline ctermfg=11 gui=bold guifg=Yellow
 "let g:airline_powerline_fonts = 1
 "let g:airline_symbols_ascii = 1
 set laststatus=2
@@ -71,7 +72,8 @@ highlight TabLine cterm=bold ctermbg=130 ctermfg=300
 
 "transparency
 hi Normal guibg=NONE ctermbg=NONE
-
+hi Insert guibg=NONE ctermbg=NONE
+hi Linenr ctermbg=NONE ctermfg=red
 
 "set columns=110
 set autoindent
@@ -122,6 +124,10 @@ autocmd FileType c inoremap <leader>pd printf("%d",);<Esc>F)i
 autocmd FileType c inoremap <leader>pf printf("%f",);<Esc>F)i
 autocmd FileType c inoremap <leader>ini #include<stdio.h><CR>
 autocmd FileType c inoremap <leader>inl #include<stdlib.h><CR>
+
+"LaTeX stuff
+autocmd FileType tex noremap <leader>cp <esc>:w<CR>:!pdflatex % && biber %< && pdflatex % <CR><CR>
+autocmd FileType tex inoremap <leader>ll <esc>:w<CR>:term ++hidden ++close pdflatex % <CR>a
 
 let g:netrw_banner=0
 let g:netrw_liststyle=3
