@@ -10,7 +10,7 @@ download-timeout 10
 #prepopulate-query-feeds yes
 show-title-bar no
 show-keymap-hint no
-max-items 70
+max-items 110
 #parallel downloading
 reload-threads 20 #20 at a time
 # -- display -------------------------------------------------------------------
@@ -51,16 +51,16 @@ bind-key g home
 
 # -- bookmarks -----------------------------------------------------------------
 
-#bookmark-cmd ~/.newsbeuter/bookmark.sh
+bookmark-cmd ~/.config/newsboat/bookmark.sh
 #bookmark-interactive no
 #bookmark-autopilot yes
 
 # colors
-color background          black      default
+color background          cyan      default
 color listnormal          color8     default
-color listnormal_unread   color73      default bold
-color listfocus           black      color43 bold
-color listfocus_unread    white      color43 bold
+color listnormal_unread   color103      default bold
+color listfocus           black      color245 bold
+color listfocus_unread    white      color245 bold
 color info                cyan       color235 bold standout
 color article             color208      default
 

@@ -279,7 +279,7 @@ def_key "b"
 #def_key "e"
 #  edit_playlist_name
 #
-#def_key "e"
+#def_key ">"
 #  edit_lyrics
 #
 #def_key "i"

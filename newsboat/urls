@@ -1,13 +1,22 @@
 ||||||||||||||||||||||||
+|-------torrents-------|
+||||||||||||||||||||||||
+.
+https://www.torrentbd.me/feed.php?v=2&cat=28,77,70,39,61,62&dtlink=1&user=97f214bcc6467142998e&passkey=dfed9d71abc9acc437dec509e3a84236
+.
+
+
+||||||||||||||||||||||||
 |-------reddit---------|
 ||||||||||||||||||||||||
 .
-
+https://www.reddit.com/r/vim.rss "~r.vimm"
 https://www.reddit.com/r/embedded.rss "~r.embedded" reddit
 https://www.reddit.com/r/HunterXHunter.rss "~ r.hunterxhunter" reddit
 https://www.reddit.com/r/OnePiece.rss "~ r.onePiece" reddit
 https://www.reddit.com/r/dostoevsky.rss "~r.dostoevsky" reddit
 https://www.reddit.com/r/soccer.rss "~ r.soccer" reddit
+https://www.reddit.com/r/realmadrid.rss "~ r.realMadrid"
 .
 
 |||||||||||||||||||||||||||||||||||
@@ -15,6 +24,7 @@ https://www.reddit.com/r/soccer.rss "~ r.soccer" reddit
 |||||||||||||||||||||||||||||||||||
 .
 
+https://ieeesbdu.org/feed/
 https://spectrum.ieee.org/feeds/feed.rss "~IEEE feed" Academia
 .
 
@@ -40,7 +50,16 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UC9PIn6-XuRKZ5HmYeu46AIw "~ 
 https://www.youtube.com/feeds/videos.xml?channel_id=UCRlICXvO4XR4HMeEB9JjDlA "~ Thoughty2" youtube
 https://www.youtube.com/feeds/videos.xml?channel_id=UCu7_D0o48KbfhpEohoP7YSQ "~ Engineer with a Swiss accent" youtube
 https://www.youtube.com/feeds/videos.xml?channel_id=UCsXVk37bltHxD1rDPwtNM8Q "~ kurzgesagt" youtube
-
+.
+||||||||||||||||||||||||
+|--------manga---------|
+||||||||||||||||||||||||
+.
+https://mangasee123.com/rss/Hunter-X-Hunter.xml
+https://mangasee123.com/rss/One-Piece.xml
+https://mangasee123.com/rss/Berserk.xml
+https://mangasee123.com/rss/Vagabond.xml
+.
 ||||||||||||||||||||||||
 --------football--------
 ||||||||||||||||||||||||
