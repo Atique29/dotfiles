@@ -6,25 +6,38 @@
 # SUPER + FUNCTION KEYS
 #################################################################
 #dmenu_dictionary
-super + shift +d
+super + s ; d
 	~/atiqxe/scripts/dmenu_dict/dmenu_dict.sh
-# qutebrowser
-super + shift + c
-	qutebrowser
+# dmenu_config
+super + s ; g
+	~/atiqxe/scripts/dmenu_grab/grab.sh
+#dmenu_standings
+super + s ; t
+	~/atiqxe/scripts/dmenu_standings/table.sh
+#dmenu_interpreter
+super + s ; i
+	~/atiqxe/scripts/dmenu_interpreter/interpreter.sh
+
+# ytube
+super + y ; v
+	ytfzf -D -l
+# audio from yt
+super + y ; a
+	ytfzf -D -l -m
 
 # RSS/Atom
 super + shift + n
-	st -e newsboat
+	alacritty -e newsboat
 
 #Password-manager(passmenu)
 super + shift + p
-    passmenu -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:pixelsize=18'
+    passmenu -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'JetBrainsMono:bold:pixelsize=18'
 
 #mail
 super + shift +  m
     st -e neomutt
 
-#Meld
+#scheduling
 super + F5
     meld
 
@@ -32,10 +45,13 @@ super + F5
 super + F8
     thunar
 
+#calculate from dmenu
+super + s ; c
+	~/atiqxe/scripts/dmenu_calc/calc.sh
 
 #ncmcpp&mpd
 super + shift + u
-	st -e ncmpcpp
+	alacritty -e ncmpcpp
 
 #cursor
 #super + shift + c
@@ -49,12 +65,9 @@ super + e
 super + w
     brave
 
-#Conky-toggle
+#qute
 super + c
-    conky-toggle
-#night-light
-super + n
-	redshift -l 23.6943:90.3444 &
+    qutebrowser
 
 #Htop
 #super + h
@@ -66,7 +79,7 @@ super + x
 
 #Rofi theme selector
 super + r
-    st -e ranger
+    alacritty -e ranger
 
 #Urxvt
 #super + t
@@ -76,13 +89,10 @@ super + r
 super + v
     pavucontrol
 
-#Pragha
-#super + m
-#    pragha
 
 #urxvt
 super + Return
-    st
+    alacritty
 
 #Xkill
 super + Escape
@@ -108,12 +118,11 @@ super + shift + KP_Enter
 
 #dmenu
 super + p
-	dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:pixelsize=18'
+	dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'JetBrainsMono:bold:pixelsize=16'
 
 #reload sxhkd:
 super + shift + s
-	pkill -USR1 -x sxhkd
-
+	st -e calcurse
 
 #################################################################
 # CONTROL + ALT KEYS
@@ -176,8 +185,6 @@ ctrl + alt + u
      pavucontrol
 
 #Rofi theme selector
-ctrl + alt + r
-  rofi-theme-selector
 
 #Spotify
 ctrl + alt + s
