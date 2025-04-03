@@ -36,3 +36,16 @@ TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
 TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
 TagLib: MPEG::Header::parse() -- MPEG header did not match MPEG synch.
 TagLib: MPEG::Properties::read() -- Could not find an MPEG frame in the stream.
+writeCommonTags: couldn't write 'year' tag to 'gegenpressing/SmellsLikeTeenSpirit.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'gegenpressing/SmellsLikeTeenSpirit.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'newStuff/Iggy Pop - The Passenger (Official Video) [-fWw7FE9tTo].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'newStuff/Iggy Pop - The Passenger (Official Video) [-fWw7FE9tTo].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'newStuff/One of the top Ost： Fate Zero - Tragedy And Fate [655j9WXi4DA].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'newStuff/One of the top Ost： Fate Zero - Tragedy And Fate [655j9WXi4DA].opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'slow/SpidersTheme.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'slow/SpidersTheme.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'newStuff/kaiTheme.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'newStuff/kaiTheme.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'slow/aadat.opus' as it's not a positive integer
+writeCommonTags: couldn't write 'year' tag to 'Piano&Violin/Chopin – Waltz in A minor, B. 150, Op. Posth..m4a' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'Piano&Violin/Chopin – Waltz in A minor, B. 150, Op. Posth..m4a' as it's not a positive integer

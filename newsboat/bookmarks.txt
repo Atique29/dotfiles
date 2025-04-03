@@ -8,3 +8,21 @@ The Ultimate Succession War Character Breakdown
 yah
  r.hunterxhunter
 
+https://www.youtube.com/watch?v=BqwUNOHiZ9k
+How to use Voltage Supervisors to protect ESP32, Raspberry Pi, and Batteries
+
+ Engineer with a Swiss accent
+
+https://www.reddit.com/r/embedded/comments/yjeipv/best_reference_or_scientific_paper_for_face/
+best reference or scientific paper for face detection & emotion detection
+
+r.embedded
+
+https://www.reddit.com/r/EngineeringResumes/comments/m2cc65/new_and_improved_wiki/
+Writing Resumes
+r.EngineeringResumes (manual addition)
+https://www.reddit.com/r/vim/comments/ynlu8y/termdebug_gdb_shell_arguments/
+Termdebug gdb shell arguments
+keeping an eye on debugging in vim
+r.vimm
+

@@ -1,86 +1,61 @@
-||||||||||||||||||||||||
-|-------torrents-------|
-||||||||||||||||||||||||
+#
+#-------torrents-------
+#
+##.
+#https://www.torrentbd.me/feed.php?v=2&cat=28,77,70,39,61,62&dtlink=1&user=97f214bcc6467142998e&passkey=dfed9d71abc9acc437dec509e3a84236
+#.
+----------------podcasts----------------------------------------------------------------------------------------------------------------
 .
-https://www.torrentbd.me/feed.php?v=2&cat=28,77,70,39,61,62&dtlink=1&user=97f214bcc6467142998e&passkey=dfed9d71abc9acc437dec509e3a84236
+https://feeds.feedburner.com/dancarlin/history?format=xml "hardcoreHistory"
 .
-
-
-||||||||||||||||||||||||
-|-------reddit---------|
-||||||||||||||||||||||||
+----------------reddit-------------------------------------------------------------------------------------------------------------------------
 .
 https://www.reddit.com/r/vim.rss "~r.vimm"
 https://www.reddit.com/r/embedded.rss "~r.embedded" reddit
-https://www.reddit.com/r/HunterXHunter.rss "~ r.hunterxhunter" reddit
-https://www.reddit.com/r/OnePiece.rss "~ r.onePiece" reddit
+#https://www.reddit.com/r/HunterXHunter.rss "~ r.hunterxhunter" reddit
 https://www.reddit.com/r/dostoevsky.rss "~r.dostoevsky" reddit
-https://www.reddit.com/r/soccer.rss "~ r.soccer" reddit
+https://www.reddit.com/r/soccer.rss "~r.soccer" reddit
 https://www.reddit.com/r/realmadrid.rss "~ r.realMadrid"
 .
-
-|||||||||||||||||||||||||||||||||||
-|-------my_villain_academia-------|
-|||||||||||||||||||||||||||||||||||
+----------------ieee-----------------------------------------------------------------------------------------------------------------------
+https://ieeesbdu.org/feed/ "~IEEESB feed"
+https://spectrum.ieee.org/feeds/feed.rss "~IEEESB feed"
 .
-
-https://ieeesbdu.org/feed/
-https://spectrum.ieee.org/feeds/feed.rss "~IEEE feed" Academia
+----------------ytube--------------------------------------------------------------------------------------------------------------------------
 .
-
-||||||||||||||||||||||||
-|-------ytube----------|
-||||||||||||||||||||||||
-.
-
+https://www.youtube.com/feeds/videos.xml?channel_id=UCfGDYIyyNh52lvU4rCJkInA "~ ManagingMadrid" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UC6biysICWOJ-C3P4Tyeggzg "~ LowLevelLearning" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCvohL2eaDa7TAImOJaYl5dQ "~ Morj" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCGYYNGmyhZ_kwBF_lqqXdAQ "~ Tifo" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UC6ZMmQaL9wZYo4iLw8n8xiA "~ TifoIrl" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCUUYiPd9TKE62mUn-lJ29AQ "~ Aleczandxr" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7Ucs42FZy3uYzjrqzOIHsw  "~ EmpLemon" youtube
 https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw  "~ 3B1B" youtube
 https://www.youtube.com/feeds/videos.xml?channel_id=UCR1D15p_vdP3HkrH8wgjQRw "~ very serious ytber" youtube
 https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA "~ Outlaw" youtube
 https://www.youtube.com/feeds/videos.xml?channel_id=UCEIwxahdLz7bap-VDs9h35A "~ Steve Mould" youtube
-https://www.youtube.com/feeds/videos.xml?channel_id=UC2DjFE7Xf11URZqWBigcVOQ "~ EEvlog" youtube
-https://www.youtube.com/feeds/videos.xml?channel_id=UCvohL2eaDa7TAImOJaYl5dQ "~ Morj" youtube
-https://www.youtube.com/feeds/videos.xml?channel_id=UC2msEzmNU3Um7KF2EnXJBFA  "~ GrandLineReview" youtube
-https://www.youtube.com/feeds/videos.xml?channel_id=UCiQRnlP5wwjtVKqOdQB26-g "~ Piotr" youtube
-https://www.youtube.com/feeds/videos.xml?channel_id=UCGYYNGmyhZ_kwBF_lqqXdAQ "~ Tifo" youtube
-https://www.youtube.com/feeds/videos.xml?channel_id=UCUUYiPd9TKE62mUn-lJ29AQ "~ Aleczandxr" youtube
-https://www.youtube.com/feeds/videos.xml?channel_id=UCFY0YHhxiIQWYYsLgeUBcbg "~ FootballMadeSimple" youtube
 https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "~ Luke Smith" youtube
-https://www.youtube.com/feeds/videos.xml?channel_id=UCY1kMZp36IQSyNx_9h4mpCg "~ Mark Rober" youtube
 https://www.youtube.com/feeds/videos.xml?channel_id=UC9PIn6-XuRKZ5HmYeu46AIw "~ Sociable" youtube
 https://www.youtube.com/feeds/videos.xml?channel_id=UCRlICXvO4XR4HMeEB9JjDlA "~ Thoughty2" youtube
 https://www.youtube.com/feeds/videos.xml?channel_id=UCu7_D0o48KbfhpEohoP7YSQ "~ Engineer with a Swiss accent" youtube
-https://www.youtube.com/feeds/videos.xml?channel_id=UCsXVk37bltHxD1rDPwtNM8Q "~ kurzgesagt" youtube
 .
-||||||||||||||||||||||||
-|--------manga---------|
-||||||||||||||||||||||||
+----------------manga----------------------------------------------------------------------------------------------------------------------------------
 .
 https://mangasee123.com/rss/Hunter-X-Hunter.xml
 https://mangasee123.com/rss/One-Piece.xml
 https://mangasee123.com/rss/Berserk.xml
-https://mangasee123.com/rss/Vagabond.xml
 .
-||||||||||||||||||||||||
---------football--------
-||||||||||||||||||||||||
+----------------gitRepo----------------------------------------------------------------------------------------------------------------------------------
 .
-http://www.realmadridnews.com/feed "~ RealMadrid"
-https://www.101greatgoals.com/feed/ "~ 101gg"
-https://the12thman.in/category/football/feed/ "~ 12thMan"
-.
-
-||||||||||||||||||||||||
-|-------gitRepo--------|
-||||||||||||||||||||||||
-.
-
 https://github.com/Atique29.atom "~ @me" github
 https://github.com/arbanhossain.atom "~ Arban" github
 https://github.com/shantanu404.atom "~ Shanta" github
 https://github.com/LukeSmithxyz.atom "~ Luke" github
-
-
-||||||||||||||||||||||||||||||||||
-|-------interesting-sites--------|
-||||||||||||||||||||||||||||||||||
+.
+----------------EMBEDDED------------------------------------------------------------------------------------------------------------------
+https://interrupt.memfault.com/feed.xml "~ interrupt.memfault"
+.
+----------------interesting-sites----------------------------------------------------------------------------------------------------------------------------------
+.
 https://based.cooking/index.xml "~ BasedCooking"
+.
